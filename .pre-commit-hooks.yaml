@@ -1,0 +1,6 @@
+- id: cog-verify-commit-msg
+  name: Verify commit msg
+  description: Verify commit msg
+  entry: cog verify --file
+  language: rust
+  stages: [commit-msg]
